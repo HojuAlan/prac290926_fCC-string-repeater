@@ -1,0 +1,12 @@
+// Simple and clean solution, I think.
+
+function repeatStringNumTimes(string, number) {
+  let repeatable = string;
+  let final = ''
+  for (let i = 0; i < number; i++) {
+    final += repeatable;
+  }
+  return final
+}
+
+console.log(repeatStringNumTimes('happy', 4))
